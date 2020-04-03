@@ -1,0 +1,188 @@
+body {
+  background-color: #060606;
+  margin: 0px;
+  box-sizing: border-box;
+  /*display: flex;
+  justify-content: center;
+  flex-flow: column;*/
+}
+
+#firstBG{
+  opacity: 0.2;
+  position: absolute;
+  z-index: -10;
+  /*background-size: cover;*/
+  height: 100%;
+}
+.nav{
+  justify-content: center;
+  /*border: solid 1px red;*/
+  margin-bottom: 30px;
+}
+
+.nav li {
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 40px 25px;
+}
+
+.nav li:nth-child(2) {
+  color: #f23005;
+}
+
+.nav li:hover {
+  color: #f23005;
+  border-bottom: solid 2px #f23005;
+  cursor: pointer;
+}
+
+/*------BUTTONS--------------------*/
+.whiteBtn{
+  color: whitesmoke;
+  border-color: whitesmoke;
+  width: 160px;
+  font-weight: bold;
+  margin-right: 10px;
+  position: absolute;
+  top: 250px;
+  left: 50%;
+}
+
+.orangeBtn{
+  color:  whitesmoke;
+  border-color:  #f23005;
+  background-color: #f23005;
+  width: 160px;
+  font-weight: bold;
+  position: absolute;
+  top: 250px;
+  left: 80%;
+}
+
+.orangeBtn:hover{
+  background-color: #da2b04;
+  border-color:  #f83307; 
+}
+/*--------sliderBlock------------------*/
+
+.sliderBlock{
+  text-align: end;
+  padding: 60px 40px 50px 20px;
+  color: whitesmoke;
+  width: 800px;
+  min-height: 400px;
+  height: auto;
+  /*border: solid 1px red;*/
+}
+
+.carousel-item>p{
+  text-align: justify;
+}
+
+h4{
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.carousel-item span{
+  font-size: 60px;
+  font-weight: 800;
+  letter-spacing: 5px;
+}
+
+.carousel-item>h2 span:first-child{
+  color: #f23005;
+}
+
+#myCarousel>a{
+  border-radius: 50%;
+  border: solid 1px whitesmoke;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: -50px;
+  
+}
+#myCarousel>a:first-child{
+  left:85%;
+}
+#myCarousel>a:last-child{
+  left:90%;
+}
+
+.carousel-indicators{
+  top: 370px;
+}
+
+/*----SecondBlock------*/
+.SecondBlock{
+  margin-top: 150px;
+}
+
+.SecondBlock>div{
+  height: 500px;
+  /*border: solid 1px yellow;*/
+  overflow: hidden;
+}
+
+.SecondBlock>div:first-child{
+  padding-left: 100px;
+}
+
+.SecondBlock>div a{
+  color: whitesmoke;
+  font-size: medium;
+  font-weight: bold;
+  background-color: #f23005;
+  border-radius: 4px;
+  margin: 20px 0px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.SecondBlock>div p{
+  color: whitesmoke;
+  text-align: justify;
+  font-size: small;
+  font-weight: 400;
+}
+
+/*----3 Orange Block------*/
+.OrangeBlock{
+  height: 250px;
+  background-color:  #f23005;
+  color: whitesmoke;
+  
+}
+
+.OrangeBlock h2{
+  font-size: 50px;
+  
+}
+.OrangeBlock h3{
+  font-size: medium;
+  font-weight: 400;
+}
+
+.OrangeBlock>div:nth-child(2){
+  background-color: #c42400;
+  padding: 78px 0px;
+
+}
+
+/*----Down Block------*/
+.DownBlock{
+  height: 500px;
+}
+
+#bg_gitara{
+  position: absolute;
+  z-index: -10;
+  height: 100%;
+}
+
+.DownBlock>div>section{
+  color: whitesmoke;
+}
